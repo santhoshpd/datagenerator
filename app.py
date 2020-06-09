@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 @app.route('/')
 def index(): 
-    return '<h1>DataGenerator</h1>'
+    return "<h1>DataGenerator</h1>
 
 @app.route("/", methods=["POST"])
 def processjson():  
@@ -37,6 +37,5 @@ def processjson():
     else:
         return jsonify({"message": "Request body must be JSON"}), 400
 
-
 if __name__ == '__main__':
-    app.run()
+    app.run(debug=True,host='0.0.0.0')
