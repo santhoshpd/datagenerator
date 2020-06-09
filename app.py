@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 
 app = Flask(__name__)
 @app.route('/')
-def index():
+def index(): 
     return '<h1>DataGenerator</h1>'
 
 @app.route("/", methods=["POST"])
