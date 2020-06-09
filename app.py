@@ -5,7 +5,7 @@ app = Flask(__name__)
 def index(): 
     return "<h1>DataGenerator</h1>"
 
-@app.route("/", methods=["POST"])
+@app.route("/input", methods=["POST"])
 def processjson():  
     if request.is_json:
         data = request.get_json()
