@@ -1,1 +1,1 @@
-web: python3.8 app.py
+web:uwsgi uwsgi.ini
