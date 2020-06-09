@@ -3,7 +3,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 @app.route('/')
 def index(): 
-    return "<h1>DataGenerator</h1>
+    return "<h1>DataGenerator</h1>"
 
 @app.route("/", methods=["POST"])
 def processjson():  
