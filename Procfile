@@ -1,1 +1,1 @@
-web:python3.8 app.py
+web: python manage.py runserver 0.0.0.0:5000
