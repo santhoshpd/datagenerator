@@ -1,0 +1,10 @@
+insert into user (first_name,email,gender,year) values('Morgan','christopher79@lane-stanley.org','Male',1956);
+insert into user (first_name,email,gender,year) values('Jennifer','codymyers@white-lee.info','Female',1976);
+insert into user (first_name,email,gender,year) values('Stephanie','joseph88@collins.com','Male',1970);
+insert into user (first_name,email,gender,year) values('Caleb','dsmith@gmail.com','Female',1987);
+insert into user (first_name,email,gender,year) values('Heather','inixon@yahoo.com','Male',1986);
+insert into user (first_name,email,gender,year) values('Deborah','jacksonanthony@yahoo.com','Male',1954);
+insert into user (first_name,email,gender,year) values('Kelly','patricia24@fisher.com','Male',1979);
+insert into user (first_name,email,gender,year) values('Ann','clarkdaniel@zavala.org','Female',1976);
+insert into user (first_name,email,gender,year) values('Sandra','tylercoleman@roy-barrett.com','Male',1950);
+insert into user (first_name,email,gender,year) values('David','billhouse@jones.com','Male',1957);
