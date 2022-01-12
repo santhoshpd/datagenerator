@@ -22,7 +22,7 @@ marshmallow-sqlalchemy==0.23.1
 mimesis==4.0.0
 numpy==1.18.5
 pandas==1.0.4
-pipenv==2020.6.2
+pipenv==2022.1.8
 pydbgen==1.0.5
 python-dateutil==2.8.1
 pytz==2020.1
