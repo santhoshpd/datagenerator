@@ -20,7 +20,7 @@ MarkupSafe==1.1.1
 marshmallow==3.6.1
 marshmallow-sqlalchemy==0.23.1
 mimesis==4.0.0
-numpy==1.18.5
+numpy==1.22.0
 pandas==1.0.4
 pipenv==2020.6.2
 pydbgen==1.0.5
